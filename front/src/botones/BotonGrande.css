@@ -1,0 +1,20 @@
+.boton-grande {
+	align-items: center;
+	background-color: rgb(255, 183, 50);
+	border-radius: 5px;
+	height: 50px;
+	/* width: 104px; */
+	width: 210px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin: 2px;
+}
+
+.boton-grande:hover {
+	cursor: pointer;
+}
+
+.boton-grande:active {
+	background-color: rgb(177, 0, 0);
+}

@@ -1,0 +1,41 @@
+.boton {
+	align-items: center;
+	background-color: rgb(255, 183, 50);
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin: 2px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.boton-operador {
+	align-items: center;
+	background-color: rgb(248, 231, 201);
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin: 2px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.boton:hover{
+	cursor: pointer;
+}
+
+.boton:active{
+	background-color: rgb(177, 115, 0);
+}
+
+.boton-operador:hover{
+	cursor: pointer;
+}
+
+.boton-operador:active{
+	background-color: rgb(154, 144, 127);
+}

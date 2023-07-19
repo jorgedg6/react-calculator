@@ -1,0 +1,15 @@
+.visor {
+	background-color: beige;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	color: black;
+	text-align: right;
+	padding-right: 10px;
+	width: 220px;
+	height: 100px;
+	transition: font-size 0.2s;
+	/* Con ayuda de ChatGPT */
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}

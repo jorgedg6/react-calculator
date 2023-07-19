@@ -1,0 +1,38 @@
+.calculadora {
+	background-color: rgb(58, 58, 58);
+	padding: 20px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: rgb(58, 58, 58);
+	/* Extraído de https://sinlevantar.blogspot.com/2012/08/efecto-biselado-css-sombras.html */
+	border: 1px solid rgb(58, 58, 58);
+	background: rgb(58, 58, 58);
+	box-shadow: inset 2px 2px 4px rgba(120, 120, 120, .4), inset -3px -3px 3px rgba(255, 255, 255, .4);
+}
+
+.calculadora-contenedor {
+	display: flex;
+	flex-direction: row;
+}
+
+.calculadora-fila {
+	display: flex;
+	flex-direction: row;
+}
+
+.calculadora-teclas {
+	display: flex;
+	flex-direction: column;
+}
+
+.calculadora-operadores {
+	display: flex;
+	flex-direction: column;
+}
+
+.calculadora-igual {
+	display: flex;
+	flex-direction: row;
+}
